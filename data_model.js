@@ -7,6 +7,7 @@ const Schema = new mongoose.Schema({
   },
   question2: {
     type: String,
+    required: `Field is empty!`,
   },
   question3: {
     type: String,
